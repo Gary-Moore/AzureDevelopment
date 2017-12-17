@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureWebAppResource", "AzureWebAppResource\AzureWebAppResource.deployproj", "{520556CC-4576-4F14-9F03-2420BF60CC2A}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "AzurePowershellAutomationScripts", "AzurePowershellAutomationScripts\AzurePowershellAutomationScripts.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520556CC-4576-4F14-9F03-2420BF60CC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520556CC-4576-4F14-9F03-2420BF60CC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520556CC-4576-4F14-9F03-2420BF60CC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520556CC-4576-4F14-9F03-2420BF60CC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {815087A1-4788-42D9-8F6C-83E76B6E8388}
+	EndGlobalSection
+EndGlobal
