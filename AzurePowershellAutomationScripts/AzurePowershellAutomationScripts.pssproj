@@ -26,12 +26,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Vm\" />
+    <Folder Include="Resources\" />
     <Folder Include="Storage\" />
     <Folder Include="WebApps\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resources\Create-ResourceGroup.ps1" />
     <Compile Include="Storage\Create-BlobStorage.ps1" />
     <Compile Include="Storage\Write-ReleasePackageToBlobStorage.ps1" />
+    <Compile Include="Vm\Create-WindowsVM.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
